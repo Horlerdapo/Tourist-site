@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #b3b3b3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #d0d3d4;
+    height: 100vh;
+
+}
+
+.background-bg {
+    background-image: url(images/leandra-rieger-sV-s0oOSNTY-unsplash\ \(2\).jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px;
+    margin-top: 30px;
+    background-color: #111;
+  
+}
+
+.nav-menu .logo-text {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    color: #d0d3d4;
+    cursor: pointer;
+}
+
+.logo-text span {
+    color: #ffac67;
+    font-size: 1rem;
+}
+
+.middle-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-nav li {
+    list-style: none;
+    padding: 5px 10px;
+    color: #d0d3d4;
+} 
+
+.middle-nav a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #d0d3d4;
+    transition: all .5s;
+    padding: 7px 12px;
+   
+}
+
+.middle-nav li a:hover {
+    border-bottom: 1px solid #d0d3d4;
+    color: #ffac67;
+   
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.nav-button li {
+    list-style: none;
+    margin: 0px 10px;
+    padding: 8px 14px;
+    background-color: #000;
+    border-radius: 2px;
+    
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: #ffac67;
+    font-size: 0.8rem;
+    transition: all .6s;
+}
+
+.nav-button a:hover {
+    color: #d0d3d4;
+}
+
+
+/*hero-section*/
+
+.hero-section {
+    text-align: center;
+    padding: 5px 100px;
+    margin-top: 60px;
+}
+.right-hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.right-hero p {
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 00.9rem;
+}
+
+.light-button {
+    background-color: #000;
+    display: inline-block;
+    padding: 10px 18px;
+    color: #ffac67;
+    border: 1px solid #ffac67;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all .5s;
+
+}
+
+.light-button:hover {
+    color: #000;
+    background-color: #ffac67;
+}
+.second-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+
+}
+
+.second-hero .cards {
+    padding: 10px;
+    margin: 5px 20px;
+    border-radius: 5px;
+    background-color: #111;
+    width: 270px;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 3px 3px 9px #000;
+}
+
+.cards img {
+    width: 100%;
+    position: relative;
+}
+
+.cards h3 {
+    position: absolute;
+    bottom: 180px;
+    font-size: 0.9rem;
+    padding: 10px;
+    z-index: 3;
+}
+
+.cards .price {
+    position: absolute;
+    bottom: 155px;
+    font-size: 0.8rem;
+    color: #ffac67;
+    padding: 10px;
+}
+
+
+/*what-we-do-section*/
+
+.what-we-do-section {
+    z-index: 5;
+    position: absolute;
+    top: 850px;
+    padding: 10px 30px;
+    font-size: 0.9rem;
+}
+
+
+.what-we-do-section .right-section img {
+    width: 100%;
+    height: 400px;
+}
+
+.what-we-do-section .right-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.grid-reversed :first-child {
+    order: 2;  
+}
+
+.right-section .content-page {
+    text-align:center;
+    line-height: 20px;
+    padding: 10px 35px;
+    background-color: #000;
+    height: 100%;
+}
+
+.content-page i {
+    font-size: 4rem;
+    color: #d0d3d4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.content-page h2 {
+    color: #ffac67;
+    text-decoration: solid;
+}
