@@ -3,11 +3,11 @@
 }
 
 body {
-    color: #b3b3b3;
+    color: #d0d3d4;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    background-color: #d0d3d4;
+    background-color: #000000;
     height: 100vh;
 
 }
@@ -223,4 +223,105 @@ body {
 .content-page h2 {
     color: #ffac67;
     text-decoration: solid;
+}
+
+/*google-map*/
+
+.google-map {
+    z-index: 6;
+    position: relative;
+    top: 2600px;
+}
+
+
+/*contact-page*/
+
+.contact-page {
+    z-index: 7;
+    position: relative;
+    top: 2680px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.contact-page .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px 40px;
+    margin: 0px 30px;
+}
+
+.contact div {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 20px
+}
+
+.contact i {
+    font-size: 2rem;
+    color: #ffac67;
+}
+
+.contact h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.contact p {
+    font-size: 0.8rem;
+    line-height: 24px;
+}
+
+
+/*subscribe*/
+
+.contact-page .subscribe {
+    background-color: #111;
+    padding: 10px 40px;
+    margin: 0px 40px;
+    height: 380px;
+}
+
+.subscribe h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffac67;
+}
+
+.subscribe form div {
+    margin-bottom: 15px;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: #d0d3d4;
+}
+
+div input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: transparent;
+    border-bottom: 1px solid #ffac67;
+    color: #d0d3d4;
+
+}
+
+div textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #ffac67;
+    outline: none;
+    color: #d0d3d4;
 }
